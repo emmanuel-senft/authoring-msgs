@@ -15,6 +15,7 @@ uint8 WAIT=12
 uint8 PUSH=13
 uint8 STOP=14
 uint8 INSERT=15
+uint8 MOVE_FORCE=16
 
 # Type
 uint8 type
