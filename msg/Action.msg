@@ -4,10 +4,17 @@ uint8 SCREW=1
 uint8 PLACE=2
 uint8 WIPE=3
 uint8 MOVE_OBJECT=4
-uint8 MOVE=5
-uint8 MOVE_TO_CONTACT=6
-uint8 GRASP=7
-uint8 RELEASE=8
+uint8 RESET=5
+uint8 MOVE=6
+uint8 MOVE_TO_CONTACT=7
+uint8 GRASP=8
+uint8 RELEASE=9
+uint8 VIEW=10
+uint8 INSPECT=11
+uint8 WAIT=12
+uint8 PUSH=13
+uint8 STOP=14
+uint8 INSERT=15
 
 # Type
 uint8 type
