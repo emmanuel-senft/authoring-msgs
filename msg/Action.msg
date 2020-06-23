@@ -17,6 +17,7 @@ uint8 STOP=14
 uint8 INSERT=15
 uint8 MOVE_FORCE=16
 uint8 UNSCREW=17
+uint8 MOVE_ANGLE=18
 
 # Type
 uint8 type
@@ -28,6 +29,9 @@ geometry_msgs/PoseArray poses
 
 # PoseStamped (for low level planning)
 geometry_msgs/PoseStamped pose
+
+# JointState (for going to fixed position, example reset)
+sensor_msgs/JointState joint_state
 
 # Item
 std_msgs/String item
