@@ -17,12 +17,16 @@ add_message_files(
     POIArray.msg
 )
 
+add_action_files(
+  DIRECTORY action
+  FILES Authoring.action
+)
 
 generate_messages(
-    DEPENDENCIES geometry_msgs std_msgs sensor_msgs
+    DEPENDENCIES actionlib_msgs geometry_msgs std_msgs sensor_msgs
 )
 
 catkin_package(
-  CATKIN_DEPENDS actionlib_msgs geometry_msgs nav_msgs sensor_msgs
+  CATKIN_DEPENDS actionlib_msgs geometry_msgs std_msgs sensor_msgs
 )
 
