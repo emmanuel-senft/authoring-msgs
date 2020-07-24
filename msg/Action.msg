@@ -22,6 +22,8 @@ uint8 MOVE_ANGLE=18
 # Type
 uint8 type
 
+std_msgs/Bool sim
+
 std_msgs/Bool finished
 
 # PoseArray (for high level planning)
@@ -31,7 +33,7 @@ geometry_msgs/PoseArray poses
 geometry_msgs/PoseStamped pose
 
 # JointState (for going to fixed position, example reset)
-sensor_msgs/JointState joint_state
+float64[] joint_pose
 
 # Item
 std_msgs/String item
