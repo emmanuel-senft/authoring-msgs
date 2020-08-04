@@ -18,6 +18,7 @@ uint8 INSERT=15
 uint8 MOVE_FORCE=16
 uint8 UNSCREW=17
 uint8 MOVE_ANGLE=18
+uint8 PULL=19
 
 # Type
 uint8 type
