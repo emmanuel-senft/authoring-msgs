@@ -19,6 +19,11 @@ uint8 MOVE_FORCE=16
 uint8 UNSCREW=17
 uint8 MOVE_ANGLE=18
 uint8 PULL=19
+uint8 CAMERA_VELOCITY=20
+uint8 MOVE_UNKNOWN=21
+uint8 PULL_DRAWER=22
+uint8 BIAS_FORCES=23
+uint8 DROP=24
 
 # Type
 uint8 type
@@ -27,14 +32,17 @@ std_msgs/Bool sim
 
 std_msgs/Bool finished
 
-# PoseArray (for high level planning)
-geometry_msgs/PoseArray poses
+# HybridPoseArray (for high level planning)
+panda_ros_msgs/HybridPoseArray poses
 
-# PoseStamped (for low level planning)
-geometry_msgs/PoseStamped pose
+# HybridPose (for low level planning)
+panda_ros_msgs/HybridPose pose
 
 # JointState (for going to fixed position, example reset)
 float64[] joint_pose
 
 # Item
 std_msgs/String item
+
+# Velocity
+geometry_msgs/Twist velocity

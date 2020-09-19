@@ -14,9 +14,11 @@
   <build_depend>actionlib_msgs</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>panda_ros_msgs</build_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>actionlib_msgs</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
+  <run_depend>panda_ros_msgs</run_depend>
 
 </package>

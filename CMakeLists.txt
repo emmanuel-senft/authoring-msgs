@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
         geometry_msgs
         std_msgs
         sensor_msgs
+        panda_ros_msgs
 )
 
 add_message_files(
@@ -23,10 +24,10 @@ add_action_files(
 )
 
 generate_messages(
-    DEPENDENCIES actionlib_msgs geometry_msgs std_msgs sensor_msgs
+    DEPENDENCIES actionlib_msgs geometry_msgs std_msgs sensor_msgs panda_ros_msgs
 )
 
 catkin_package(
-  CATKIN_DEPENDS actionlib_msgs geometry_msgs std_msgs sensor_msgs
+  CATKIN_DEPENDS actionlib_msgs geometry_msgs std_msgs sensor_msgs panda_ros_msgs
 )
 
