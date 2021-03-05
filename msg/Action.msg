@@ -24,6 +24,7 @@ uint8 MOVE_UNKNOWN=21
 uint8 PULL_DRAWER=22
 uint8 BIAS_FORCES=23
 uint8 DROP=24
+uint8 RELEASE_FORCE=25
 
 # Type
 uint8 type
